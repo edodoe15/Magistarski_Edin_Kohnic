@@ -33,7 +33,7 @@ Ovaj repozitorij sadrži kompletan projekat izgradnje modela za predikciju klima
 
     Instalirati potrebne biblioteke:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 Pokrenuti Flask API:
 
