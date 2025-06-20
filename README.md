@@ -14,8 +14,8 @@ Ovaj repozitorij sadrži kompletan projekat izgradnje modela za predikciju klima
   - `prosjek_lstm.csv` – prosječne godišnje temperature prema LSTM modelu.  
   - `predikcije_2026_2045.csv` – mjesečne predikcije za period 2026–2045 (LSTM model).
 
-- **`app.py`**  
-  - Flask aplikacija koja izlaže REST API za dohvat predikcija po godini i mjesecu.
+- **`my_flask_api.rar`**  
+  - Flask aplikacija koja izlaže REST API za dohvat predikcija po godini i mjesecu. Koristi GUI za prikaz grafa sa podacima o predviđenim temperaturama (ovi podaci dolaze iz .csv-a u sklopu foldera, a dobijeni su     preko LSTM predikcionog modela. Folder se sastoji od /templates/index.html fajla, app.py fajla i csv-a sa podacima. 
 
 ## Korištene tehnologije
 
@@ -39,7 +39,7 @@ Pokrenuti Flask API:
 
     python app.py
 
-    Pristupiti API-ju na http://localhost:5000/apidocs (Swagger) ili Postman
+    Pristupiti aplikaciji na http://localhost:5000
 
 Napomene
 
